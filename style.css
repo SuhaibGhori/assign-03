@@ -1,0 +1,38 @@
+/* Gradient background styling */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e3c72, #f64f59);
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+  /* Container to center content */
+  .container {
+    text-align: center;
+  }
+  
+  /* Stylish text */
+  #assignment-text {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    animation: fade-in 2s ease-in-out;
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
